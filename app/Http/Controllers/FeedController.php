@@ -9,7 +9,7 @@ use App\User;
 use App\Profile;
 use App\Search;
 use App\Genre;
-use App\SavedArticle;
+
 use Session;
 use Hash;
 
