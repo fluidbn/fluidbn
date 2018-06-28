@@ -26,7 +26,7 @@ Auth::routes();
 
 Auth::routes();
 
-Route::middleware(['auth','optimizeImages'])->group(function(){
+Route::middleware(['auth'])->group(function(){
 Route::get('/home', 'FeedController@index')->name('home');
 
 Route::post('/get-me-in', 'AfterSignup\AfterSignupController@createProfile')->name('get-me-in');
