@@ -5,33 +5,7 @@
 
 '
 @section('content')
-{{--
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                
-                   
-                <div class="card-header">{{Auth::user()->fname."'s feed"}}</div>
-                <p></p>
-               
-                
-                <div class="card-body">
-                  
 
-                    Heya {{Auth::user()->fname
-                    }} 
-                      
-                </div>
-                @if (session('status'))
-                <div class="alert alert-success">
-                    {{ session('status') }}
-                </div>
-            @endif
-            </div>
-        </div>
-    </div>
-</div> --}}
 
 <main role="main">
 
@@ -52,26 +26,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>Another example headline.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><button class="btn btn-outline-primary" onclick="location.href='{{route('feed')}}'" >Sign up today</button></p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-              <div class="container">
-                <div class="carousel-caption text-right">
-                  <h1>One more for good measure.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><button class="btn btn-outline-primary" onclick="location.href='{{route('feed')}}'" >Sign up today</button></p>
-                </div>
-              </div>
-            </div>
+            
+           
           </div>
           <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
